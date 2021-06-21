@@ -2,8 +2,6 @@ import './style.css'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
-// import * as THREE from 'https://unpkg.com/three/build/three.module.js';
-
 
 // Loader
 const textureLoader = new THREE.TextureLoader()
@@ -19,7 +17,7 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 // Objects
-const geometry = new THREE.TorusKnotBufferGeometry(5, 1.4, 500, 100);
+const geometry = new THREE.TorusKnotBufferGeometry(5, 1.5, 50, 8);
 
 // Materials
 
